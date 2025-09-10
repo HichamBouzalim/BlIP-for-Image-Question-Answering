@@ -30,8 +30,8 @@ raw_image = Image.open(requests.get(img_url, stream=True).raw).convert('RGB')
 # You can ask multiple questions about the image
 # These questions are passed along with the image to the model for generating answers
 questions = [
-    "what is happening in the image?",  # Describes actions or events in the image
-    "What is in the image?"             # Identifies main objects, people, or animals
+    "Is there an animal in the image?",  # Describes actions or events in the image
+    "What is happening in the image?"             # Identifies main objects, people, or animals
 ]
 
 # -----------------------------
