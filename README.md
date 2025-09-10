@@ -26,7 +26,7 @@ A Python project that uses **BLIP** (Bootstrapped Language-Image Pretraining) fr
 
 ## 🚀 Requirements
 
-- Python >= 3.11  
+- Python >= 3.8  
 - PyTorch  
 - torchvision (for image processing and model support)  
 - Hugging Face Transformers  
